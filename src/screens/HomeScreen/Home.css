@@ -1,0 +1,51 @@
+.homeSizePage {
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end; 
+    position: relative;
+}
+
+.infoAboutMe {
+    height: 785px; 
+    width: 70%; 
+    display: flex;
+    flex-direction: column; 
+}
+
+.websiteOptions {
+    background-color: antiquewhite;
+    height: 100px;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.optionsContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: azure;
+    height: 70%; 
+    width: 100%;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.profileContainer {
+    height: 785px; 
+    width: 90%; 
+}
+
+.grayProfileContainer {
+    height: 80%;
+    width: 100%;
+    background-color: #F4F4F4;  
+    display: flex;
+    justify-content: flex-end;
+}
+
+.myImage {
+    height: 100%; 
+    margin-right: 0;
+    padding-right: 0;
+}
