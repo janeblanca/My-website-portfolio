@@ -1,51 +1,84 @@
-.homeSizePage {
-    display: flex;
-    flex-direction: row; 
-    justify-content: flex-end; 
-    position: relative;
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+@font-face {
+    font-family: 'Alata';
+    src: url(https://fonts.gstatic.com/s/alata/v10/PbytFmztEwbIoce9zqY.woff2) format('woff2');
 }
 
-.infoAboutMe {
-    height: 785px; 
-    width: 70%; 
-    display: flex;
-    flex-direction: column; 
-}
-
-.websiteOptions {
-    background-color: antiquewhite;
-    height: 100px;
+.body {
+    height: 100%;
     width: 100%; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.optionsContainer {
-    display: flex;
-    flex-direction: row;
-    background-color: azure;
-    height: 70%; 
-    width: 100%;
-    align-items: flex-end;
-    justify-content: center;
-}
-
-.profileContainer {
-    height: 785px; 
-    width: 90%; 
-}
-
-.grayProfileContainer {
-    height: 80%;
-    width: 100%;
-    background-color: #F4F4F4;  
+.homePage {
+    /* background-color: aqua; */
     display: flex;
     justify-content: flex-end;
 }
 
-.myImage {
-    height: 100%; 
-    margin-right: 0;
-    padding-right: 0;
+.profilePictureContainer {
+    /* background-color: yellow; */
+    width: 40%;
+    height: 785px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.myProfilePicture {
+    height: 83%; 
+    width: 100%;
+}
+
+.profileDetailsContainer {
+    /* background-color: blue; */
+    height: 785px;
+    width: 72%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.detailsContainer {
+    /* background-color: aquamarine; */
+    height: 83%;
+    width: 100%; 
+    display: flex;
+    justify-content: flex-end;
+    position: relative; 
+}
+
+.grayBox {
+    background-color: #F4F4F4;
+    height: 100%;
+    width: 67%;
+}
+
+.webPageSectionContainer {
+    /* background-color: yellowgreen; */
+    height: 10%;
+    width: 65%; 
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+.webPageSection {
+    /* background-color: antiquewhite; */
+    height: 50%;
+    width: 100%; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.webSectionText { 
+    font-family: 'Alata';
+    font-style: normal;
+    font-size: 20px;
+    font-display: swap;
+    color: #7D7C7C;
+    margin-right: 9%;
+    margin-left: 6%;
 }
