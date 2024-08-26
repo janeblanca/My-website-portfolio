@@ -22,8 +22,20 @@ export default function Home() {
               <p className="hiText">Hi,</p>
             </div>
             <div className="myNameContainer">
-              <p>I'm Jane Blanca</p>
+              <p className="imText">I'm</p>
+              <p className="nameText">Jane Blanca</p>
             </div>
+            <div className="linkContainer">
+              <p className="linkedinText">LINKEDIN</p>
+              <p className="githubText">GITHUB</p>
+            </div>
+          </div>
+        </div>
+        <div className="mainButtonContainer">
+          <div className="buttonContainer">
+            <button className="downloadButton">
+              <text className="downloadText">DOWNLOAD CV</text>
+            </button>
           </div>
         </div>
         <div className="detailsContainer">

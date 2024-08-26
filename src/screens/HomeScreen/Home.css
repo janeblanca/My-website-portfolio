@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alata&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Alata&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 @font-face {
     font-family: 'Alata';
@@ -9,8 +9,13 @@
 @font-face {
     font-family: 'Work Sans';
     src: url(https://fonts.gstatic.com/s/worksans/v19/QGYsz_wNahGAdqQ43Rh_fKDp.woff2) format('woff2');
-  }
+}
 
+  @font-face {
+    font-family: 'Abel';
+    src: url(https://fonts.gstatic.com/s/abel/v18/MwQ5bhbm2POE2V9BPQ.woff2) format('woff2');
+}
+  
 .body {
     height: 100%;
     width: 100%; 
@@ -87,12 +92,35 @@
     color: #7D7C7C;
     margin-right: 9%;
     margin-left: 6%;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.webSectionText::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #965D5D;
+    transition: width 0.3s ease;
+}
+
+.webSectionText:hover {
+    color: #965D5D;
+    opacity: 0.66;
+}
+
+.webSectionText:hover::after {
+    width: 100%;
 }
 
 .introductoryContainer {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     height: 50%;
-    width: 65%; 
+    width: 69%; 
     /* align-items: center; */
     position: absolute;
     top: 18%;
@@ -102,7 +130,7 @@
 }
 
 .introductory {
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
     display: flex;
     flex-direction: column;
     width: 80%;
@@ -110,19 +138,134 @@
 }
 
 .hiContainer {
-    background-color: yellow;
+    display: flex;
     align-items: center;
     height: 50%;
 }
 
 .hiText {
     font-family: 'Work Sans';
-    font-size: 200px;
+    font-size: 210px;
+    font-weight: 500;
     color: #898989;
 }
 
 .myNameContainer {
-    background-color: brown;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    height: 20%;
+    /* background-color: beige; */
+}
+
+.imText {
+    font-family: 'Work Sans';
+    font-size: 80px;
+    font-weight: 550;
+    color: #898989;
+    margin-left: 1.5%;
+}
+
+.nameText {
+    font-family: 'Work Sans';
+    font-size: 80px; 
+    font-weight: 550;
+    color: #965D5D;
+    opacity: 0.6;
+    margin-left: 2.5%;
+}
+
+.linkContainer {
+    /* background-color: yellow; */
+    height: 7%; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.githubText {
+    font-family: 'Abel';
+    font-size: 20px; 
+    margin-left: 13%;
+    cursor: pointer;
+}
+
+.githubText:hover {
+    color: #965D5D;
+    opacity: 0.66;
+}
+
+.linkedinText {
+    font-family: 'Abel';
+    font-size: 20px; 
+    margin-left: 2%; 
+    cursor: pointer;
+}
+
+.linkedinText:hover {
+    color: #965D5D;
+    opacity: 0.66;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        background-color: #FFE4E4;
+    }
+    50% {
+        transform: scale(1.1); 
+        background-color: #FFD1D1; 
+    }
+    100% {
+        transform: scale(1);
+        background-color: #FFE4E4;
+    }
+}
+
+.mainButtonContainer {
+    /* background-color: aquamarine; */
+    margin-top: 37%;
+    height: 13%;
+    width: 65%; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+.buttonContainer {
+    /* background-color: wheat; */
+    height: 100%;
+    width: 73%; 
+    display: flex;
+    flex-direction: row;
+}
+
+.downloadButton {
+    background-color: #FFE4E4;
+    opacity: 0.90;
+    width: 40%;
+    height: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: pulse 2s infinite;
+    cursor: pointer;
+}
+
+.downloadButton:hover{
+    background-color: #FFD1D1;
+    opacity: 0.90;
+    animation: none;
+}
+
+.downloadText {
+    font-family: 'Alata';
+    font-size: 30px; 
+    font-weight: 400; 
+    color: #935A5A;
 }
