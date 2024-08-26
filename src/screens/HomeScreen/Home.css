@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 @font-face {
     font-family: 'Alata';
     src: url(https://fonts.gstatic.com/s/alata/v10/PbytFmztEwbIoce9zqY.woff2) format('woff2');
 }
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url(https://fonts.gstatic.com/s/worksans/v19/QGYsz_wNahGAdqQ43Rh_fKDp.woff2) format('woff2');
+  }
 
 .body {
     height: 100%;
@@ -81,4 +87,42 @@
     color: #7D7C7C;
     margin-right: 9%;
     margin-left: 6%;
+}
+
+.introductoryContainer {
+    background-color: aquamarine;
+    height: 50%;
+    width: 65%; 
+    /* align-items: center; */
+    position: absolute;
+    top: 18%;
+    z-index: 2;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.introductory {
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+}
+
+.hiContainer {
+    background-color: yellow;
+    align-items: center;
+    height: 50%;
+}
+
+.hiText {
+    font-family: 'Work Sans';
+    font-size: 200px;
+    color: #898989;
+}
+
+.myNameContainer {
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
 }

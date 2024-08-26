@@ -16,6 +16,16 @@ export default function Home() {
             <p className="webSectionText">CONTACT</p>
           </div>
         </div>
+        <div className="introductoryContainer">
+          <div className="introductory">
+            <div className="hiContainer">
+              <p className="hiText">Hi,</p>
+            </div>
+            <div className="myNameContainer">
+              <p>I'm Jane Blanca</p>
+            </div>
+          </div>
+        </div>
         <div className="detailsContainer">
           <div className="grayBox"></div>
         </div>
