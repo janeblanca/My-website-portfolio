@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Alata&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@font-face {
+    font-family: 'Alata';
+    src: url(https://fonts.gstatic.com/s/alata/v10/PbytFmztEwbIoce9zqY.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url(https://fonts.gstatic.com/s/worksans/v19/QGYsz_wNahGAdqQ43Rh_fKDp.woff2) format('woff2');
+}
+
+
+.body {
+    height: 100%;
+    width: 100%;
+}
+
+.myJourneyPage {
+    height: 785px;
+    width: 100%;
+}
+
+.myJourneyHeader {
+    width: 100%; 
+    height: 15%; 
+    display: flex;
+    align-items: center;
+}
+
+.myJourneyHeaderText {
+    font-family: 'Work Sans';
+    font-size: 70px; 
+    font-weight: 550;
+    color: #898989;
+    margin-left: 4%;
+}
+
+.educAndEmployContainer {
+    height: 85%;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+}
+
+.educContainer {
+    height: 20%;
+    width: 100%;  
+    display: flex;
+    flex-direction: column;
+}
+
+.employContainer {
+    height: 80%; 
+    width: 100%; 
+}
+
+.educTextContainer {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 4%; 
+}
+
+.educAndEmployText {
+    font-family: 'Alata';
+    font-size: 18px; 
+    font-weight: 100;
+    color: #935A5A;
+}
+
+.educInfoContainer{
+    height: 70%; 
+    margin-left: 4%;
+}
+
+
+.uniText {
+    color: #636363;
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.schoolText {
+    color: #636363;
+    font-family: 'Work Sans';
+    font-weight: 450;
+    font-size: 20px;
+}
+
+.syText {
+    color: #636363;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.employTextContainer {
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 4%; 
+}
+
+.employInfoContainer {
+    height: 92%;
+    width: 93%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+    /* background-color: wheat; */
+}
+
+.companyDetailsContainer {
+    /* background-color: thistle; */
+    height: 30%; 
+    display: flex;
+    flex-direction: row;
+}
+
+.positionAndCompanyContainer {
+    /* background-color: yellow; */
+    height: 100%;
+    width: 50%; 
+    display: flex;
+    flex-direction: column;
+}
+
+.workDetailsContainer {
+    /* background-color: yellowgreen; */
+    height: 100%;
+    width: 50%; 
+    display: flex;
+    flex-direction: column;
+}
+
+.workInfoContainer {
+    width: 100%; 
+    display: flex; 
+    align-items: center;
+    /* background-color: violet; */
+}
+
+.techStackContainer {
+    height: 45%;
+    width: 100%; 
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+}
+
+.techStack {
+    height: 45%;
+    width: 8%; 
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-right: 1%;
+}
+
+.techStackText {
+    font-family: 'Alata';
+    font-size: 12px; 
+    font-weight: 20px;
+    color: #7D7C7C; 
+}
