@@ -11,7 +11,7 @@
     src: url(https://fonts.gstatic.com/s/worksans/v19/QGYsz_wNahGAdqQ43Rh_fKDp.woff2) format('woff2');
 }
 
-  @font-face {
+@font-face {
     font-family: 'Abel';
     src: url(https://fonts.gstatic.com/s/abel/v18/MwQ5bhbm2POE2V9BPQ.woff2) format('woff2');
 }

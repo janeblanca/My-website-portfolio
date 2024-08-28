@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Alata&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'Alata';
+    src: url(https://fonts.gstatic.com/s/alata/v10/PbytFmztEwbIoce9zqY.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url(https://fonts.gstatic.com/s/worksans/v19/QGYsz_wNahGAdqQ43Rh_fKDp.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Abel';
+    src: url(https://fonts.gstatic.com/s/abel/v18/MwQ5bhbm2POE2V9BPQ.woff2) format('woff2');
+}
+
+.body {
+    height: 100%;
+    width: 100%;
+}
+
+.contactPage {
+    height: 785px; 
+    width: 100%; 
+    display: flex;
+    align-items: flex-end;
+}
+
+.contactPageContainer {
+    height: 90%; 
+    width: 100%;
+    background-color: #FFE4E4; 
+    display: flex;
+    flex-direction: column;  
+}
+
+.contactHeaderContainer {
+    height: 20%; 
+    display: flex;
+    align-items: flex-start
+}
+
+.contactHeaderText {
+    font-family: 'Work Sans';
+    font-size: 70px; 
+    font-weight: 550;
+    color: #898989;
+    margin-left: 4%;
+}
+
+.contactDetailsContainer {
+    height: 80%; 
+    width: 100%; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactDetails {
+    height: 100%; 
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.messageContainer {
+    height: 100%; 
+    width: 40%; 
+    display: flex; 
+    flex-direction: column;
+}
+
+.phoneAndEmailContainer {
+    height: 20%;
+    width: 100%; 
+    display: flex;
+    flex-direction: row;
+}
+
+.phoneAndEmail {
+    height: 100%; 
+    width: 40%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.phoneAndEmailDetails {
+    width: 60%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contactDetailsText { 
+    font-family: 'Abel';
+    font-size: 20px; 
+    color: #0e0e0e;
+}
+
+.otherAccountsContainer {
+    margin-top: 5%;
+    height: 20%;
+    width: 100%; 
+    display: flex;
+    flex-direction: row;
+}
+
+.otherAccounts {
+    height: 100%; 
+    width: 5%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.otherAccountsDetails{
+    width: 95%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.otherAccountsText {
+    font-family: 'Abel';
+    font-size: 20px; 
+    color: #0e0e0e;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+
+.emailContainer {
+    margin-top: 1%;
+    background-color: #F4F4F4;
+    width: 70%; 
+    height: 8%; 
+    border: 1px solid #935A5A;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputInfo {
+    width: 95%; 
+    align-items: center;
+    font-family: 'Abel';
+    font-size: 18px;
+    color: #7D7C7C;
+    font-weight: 200;
+    border: none;
+    outline: none;
+    background-color: #F4F4F4;
+}
+
+.inputInfo:focus {
+    color: #0e0e0e;
+    border: none;
+}
+
+.inputInfo:valid {
+    color: #0e0e0e;
+}
+
+.inputMessageContainer {
+    margin-top: 1%;
+    background-color: #F4F4F4;
+    width: 70%; 
+    height: 50%; 
+    border: 1px solid hsl(0, 24%, 46%);
+    border-radius: 5px;
+}
+
+.inputMessage {
+    width: 95%; 
+    height: 90%;
+    align-items: center;
+    font-family: 'Abel';
+    font-size: 18px;
+    color: #7D7C7C;
+    font-weight: 200;
+    border: none;
+    outline: none;
+    background-color: #F4F4F4;
+    margin-top: 4%;
+    margin-left: 2%;
+}
+
+.inputMessage:focus {
+    color: #0e0e0e;
+}
+
+.inputMessage:valid {
+    color: #0e0e0e;
+}
+
+.sendMessageContainer {
+    margin-top: 2%;
+    height: 8%;
+    width: 70%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sendMessageButton {
+    background-color: #F4F4F4;
+    height: 80%; 
+    width: 15%; 
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.sendMessageButton:active {
+    transform: translateY(4px);
+}
+
+.sendMessageButton:hover {
+    border: 1px solid hsl(0, 24%, 46%);
+}
+
+.sendText {
+    font-family: 'Alata';
+    color: #935A5A;
+    font-size: 15px;
+}
