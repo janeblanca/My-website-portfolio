@@ -188,6 +188,8 @@
     font-family: 'Abel';
     font-size: 20px; 
     margin-left: 13%;
+    color: #0e0e0e;
+    text-decoration: none;
     cursor: pointer;
 }
 
@@ -200,6 +202,8 @@
     font-family: 'Abel';
     font-size: 20px; 
     margin-left: 2%; 
+    color: #0e0e0e; 
+    text-decoration: none;
     cursor: pointer;
 }
 

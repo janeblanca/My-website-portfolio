@@ -7,10 +7,18 @@ import Contact from './screens/ContactScreen/Contact';
 function App() {
   return (
     <>     
-      <Home/>
-      <Portfolio/>
-      <MyJourney/>
-      <Contact/>
+      <div id="home">
+        <Home/>
+      </div>
+      <div id="myPortfolio">
+        <Portfolio/>
+      </div>
+      <div id="myJourney">
+        <MyJourney/>
+      </div>
+      <div id="contact">
+        <Contact/>
+      </div>
     </>
   );
 }

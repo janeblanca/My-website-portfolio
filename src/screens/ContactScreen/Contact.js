@@ -39,10 +39,10 @@ export default function Contact() {
                   https://www.facebook.com/jnblnca13/
                 </a>
                 <a
-                  href="linkedin.com/in/jane-blanca-ocampo-54361928a"
+                  href="https://www.linkedin.com/in/jane-blanca-ocampo-54361928a/"
                   className="otherAccountsText"
                 >
-                  linkedin.com/in/jane-blanca-ocampo-54361928a
+                  https://www.linkedin.com/in/jane-blanca-ocampo-54361928a/
                 </a>
                 <a
                   href="https://github.com/janeblanca"

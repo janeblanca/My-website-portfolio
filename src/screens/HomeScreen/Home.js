@@ -5,15 +5,39 @@ import "../HomeScreen/Home.css";
 import MyImage from "../../assets/me.jpg";
 
 export default function Home() {
+  const scrollToSection = (sectionId) => {
+    document.getElementById(sectionId).scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div className="homePage">
       <div className="profileDetailsContainer">
         <div className="webPageSectionContainer">
           <div className="webPageSection">
-            <p className="webSectionText">HOME</p>
-            <p className="webSectionText">PORTFOLIO</p>
-            <p className="webSectionText">MY JOURNEY</p>
-            <p className="webSectionText">CONTACT</p>
+            <p
+              className="webSectionText"
+              onClick={() => scrollToSection("home")}
+            >
+              HOME
+            </p>
+            <p
+              className="webSectionText"
+              onClick={() => scrollToSection("myPortfolio")}
+            >
+              PORTFOLIO
+            </p>
+            <p
+              className="webSectionText"
+              onClick={() => scrollToSection("myJourney")}
+            >
+              MY JOURNEY
+            </p>
+            <p
+              className="webSectionText"
+              onClick={() => scrollToSection("contact")}
+            >
+              CONTACT
+            </p>
           </div>
         </div>
         <div className="introductoryContainer">
@@ -26,8 +50,18 @@ export default function Home() {
               <p className="nameText">Jane Blanca</p>
             </div>
             <div className="linkContainer">
-              <p className="linkedinText">LINKEDIN</p>
-              <p className="githubText">GITHUB</p>
+                <a
+                  href="https://www.linkedin.com/in/jane-blanca-ocampo-54361928a/"
+                  className="linkedinText"
+                >
+                  LINKEDIN
+                </a>
+                <a
+                  href="https://github.com/janeblanca"
+                  className="githubText"
+                >
+                  GITHUB
+                </a>
             </div>
           </div>
         </div>
