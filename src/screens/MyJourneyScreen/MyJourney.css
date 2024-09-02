@@ -38,10 +38,18 @@
 }
 
 .educAndEmployContainer {
-    height: 85%;
-    width: 100%; 
+    height: 100%;
+    width: 95%; 
     display: flex;
     flex-direction: column;
+}
+
+.educAndEmploy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%; 
+    width: 100%; 
 }
 
 .educContainer {
@@ -96,6 +104,7 @@
     font-family: 'Work Sans';
     font-weight: 400;
     font-size: 18px;
+    text-align: justify;
 }
 
 .employTextContainer {
@@ -125,7 +134,7 @@
 .positionAndCompanyContainer {
     /* background-color: yellow; */
     height: 100%;
-    width: 50%; 
+    width: 40%; 
     display: flex;
     flex-direction: column;
 }
@@ -133,7 +142,7 @@
 .workDetailsContainer {
     /* background-color: yellowgreen; */
     height: 100%;
-    width: 50%; 
+    width: 58%; 
     display: flex;
     flex-direction: column;
 }
@@ -155,18 +164,19 @@
 
 .techStack {
     height: 45%;
-    width: 8%; 
-    background-color: #F4F4F4;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
+    background-color: #F4F4F4;
     border-radius: 20px;
     margin-right: 1%;
+    padding: 0 2%; 
+    white-space: nowrap;
 }
 
 .techStackText {
     font-family: 'Alata';
-    font-size: 12px; 
+    font-size: 13px; 
     font-weight: 20px;
     color: #7D7C7C; 
 }
